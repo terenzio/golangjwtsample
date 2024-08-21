@@ -76,4 +76,8 @@ func main() {
 		return
 	}
 	fmt.Printf("Decoded Claims: %+v\n", decodedClaims)
+	fmt.Printf("Decoded Claims Username: %+v\n", decodedClaims.Username)
+	fmt.Printf("Decoded Claims ExpiresAt: %+v\n", decodedClaims.ExpiresAt)
+	fmt.Printf("Decoded Claims Issuer: %+v\n", decodedClaims.Issuer)
+
 }
